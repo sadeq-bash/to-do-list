@@ -1,38 +1,129 @@
-.App {
-  text-align: center;
+.App{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* border: 4px solid rgb(5, 20, 107); */
+    /* border-radius: 1rem;33333 */
+    border: none;
+    box-shadow: 4px 4px 7px 7px rgb(51, 50, 50);
+    padding: 1rem;
+    border-radius: 1rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header{
+    font-size: xx-large;
+    color: rgba(87, 85, 85, 0.986);
+}
+.form-con{
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    height: 6rem;
+    justify-content: space-around;
+    border-bottom : 2px solid #0a8f79;
+    /* border-radius: 1rem; */
+    margin: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+hr{
+    margin: 1rem;
+    background-color: #0a8f79;
+    height: 1px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.in{
+    color: gray;
+    text-align: center;
+    font-size: large;
+    height: 3.25rem;
+    width: 28rem;
+    margin-right: 1rem;
+    background-color: black;
+    border: none;
+    box-shadow: gray 2px 2px 2px 2px;
+    border-radius: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.in-btn {
+    border: none;
+    font-size: large;
+    height: 3.5rem;
+    background-color: black;
+    margin-left: 1rem;
+    /* border: 2px solid #0a8f79; */
+    color: #0a8f79;
+    border-radius: 1rem;
+    box-shadow: gray 2px 2px 2px 2px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.e-in{
+    width: 8rem;
+    height: 2.5rem;
+    background-color: black;
+    color: rgb(9, 136, 145);
+    border-radius: 0.5rem;
+    font-size: large;
+}
+
+
+
+.added-task{
+    color: rgba(163, 159, 159, 0.808);
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 1rem;
+    border: 2px solid rgb(66, 64, 64);
+    border-radius: 1rem;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+
+.editor{
+    width: 80px;
+    height: 40px;
+    border: none;
+    background-color: black;
+    color: rgb(9, 136, 145);
+    font-size: large;
+    margin-left: 4px;
+    margin-right: 2px;
+    box-shadow: 2px 2px 2px 2px gray;
+    border-radius: 8px;
+}
+
+.sub{
+    width: 80px;
+    height: 40px;
+    border: none;
+    margin-left: 4px;
+    margin-right: 4px;
+    background-color: black;
+    color: rgb(9, 136, 145);
+    box-shadow: 2px 2px 2px 2px gray;
+    font-size: large;
+    border-radius: 8px;
+}
+
+.deletor{
+    width: 80px;
+    border: none;
+    height: 40px;
+    background-color: black;
+    color: rgb(9, 136, 145);
+    font-size: large;
+    box-shadow: 2px 2px 2px 2px gray;
+    border-radius: 8px;
+}
+
+.counter{
+    color: #0a8f79;
+    border: none;
+    font-size: large;
+}
+
+.editor:hover , .deletor:hover, .sub:hover, .in-btn:hover{
+    background-color: rgb(59, 56, 56);
 }
